@@ -10,7 +10,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 ### HW8 (20pts)
 Consider the directed graph with the following **adjacency list**:
 
-`{1:[2, 3], 2:[1, 3], 3:[2], 4:[3], 5:[2, 4, 6], 6:[5, 4]}`
+`{1:[2, 3], 2:[1, 7], 3:[2], 4:[7, 8], 5:[2, 4, 6], 6:[5, 4], 8:[3, 4]}`
 
 In the following, any iterations over the vertex list or over the
 neighbours of a vertex should be done in order of vertex index.

@@ -17,11 +17,12 @@ neighbours of a vertex should be done in order of vertex index.
 
 1. *(1 pts)* Show the corresponding **adjacency matrix**.
 2. *(2 pts)* **Draw** the graph.
-3. *(4 pts)* Demonstrate a **breadth-first search** starting at 8.
-4. *(5 pts)* Demonstrate a **depth-first search** on the graph.
+3. *(3 pts)* Demonstrate a **breadth-first search** starting at 8.
+4. *(3 pts)* Demonstrate a **depth-first search** on the graph.
   Show as much work as you can, including discovery/finish times.
-5. *(2 pts)* Draw the **DFS forest** and the remaining edges.
+5. *(1 pts)* Draw the **DFS forest** and the remaining edges.
   **Classify** all edges in the graph.
 6. *(1 pts)* Show a **topological sort** of the graph from your DFS.
-7. *(5 pts)* Demonstrate finding the **strongly-connected components**
+7. *(3 pts)* Demonstrate finding the **strongly-connected components**
   of the graph, and draw a *component graph*.
+8. *(6 pts)*

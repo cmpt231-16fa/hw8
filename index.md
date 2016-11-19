@@ -15,14 +15,26 @@ Consider the directed graph with the following **adjacency list**:
 In the following, any iterations over the vertex list or over the
 neighbours of a vertex should be done in order of vertex index.
 
-1. *(1 pts)* Show the corresponding **adjacency matrix**.
+1. *(1 pt)* Show the corresponding **adjacency matrix**.
 2. *(2 pts)* **Draw** the graph.
 3. *(3 pts)* Demonstrate a **breadth-first search** starting at 8.
 4. *(3 pts)* Demonstrate a **depth-first search** on the graph.
   Show as much work as you can, including discovery/finish times.
-5. *(1 pts)* Draw the **DFS forest** and the remaining edges.
+5. *(1 pt)* Draw the **parenthesisation** structure of the DFS.
+6. *(1 pt)* Draw the **DFS forest** and the remaining edges.
   **Classify** all edges in the graph.
-6. *(1 pts)* Show a **topological sort** of the graph from your DFS.
-7. *(3 pts)* Demonstrate finding the **strongly-connected components**
+7. *(1 pt)* Show a **topological sort** of the graph from your DFS.
+8. *(3 pts)* Demonstrate finding the **strongly-connected components**
   of the graph, and draw a *component graph*.
-8. *(6 pts)*
+9. One graph problem we touched on in class but didn't dive into
+  is **bipartite checking**.  An undirected graph is *bipartite* if 
+  it is colourable using two colours (e.g., black and white) such that
+  no edge connects vertices of the same colour.
+
+  More precisely, \`V = V\_b uu V\_w\`, with \`V\_b nn V\_w = O/\` 
+  and \`u, v in V\_b => (u,v) !in E\` and \`u,v in V\_w => (u,v) !in E\`.
+
+  + (a) *(5 pts)* Design (i.e., **pseudocode**) an algorithm to test
+  if a graph is bipartite (return a boolean).  Use a BFS strategy.
+
+  + (b) *(2 pts extra credit)* Do the same using a DFS.

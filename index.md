@@ -28,11 +28,9 @@ neighbours of a vertex should be done in order of vertex index.
 8. One graph problem we touched on in class but didn't dive into
   is **bipartite checking**.  An undirected graph is *bipartite* if 
   it is colourable using two colours (e.g., red and blue) such that
-  no edge connects vertices of the same colour.
-
+  no edge connects vertices of the same colour. <br/>
   More precisely, \`V = V\_r uu V\_b\`, with \`V\_r nn V\_b = O/\` 
   and \`u, v in V\_r => (u,v) !in E\` and \`u,v in V\_b => (u,v) !in E\`.
-
   + (a) *(5 pts)* Design (i.e., **pseudocode**) an algorithm to test
   if a graph is bipartite (return a boolean).  Use a BFS strategy.
 

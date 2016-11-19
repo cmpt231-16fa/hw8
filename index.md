@@ -20,7 +20,7 @@ neighbours of a vertex should be done in order of vertex index.
 3. *(3 pts)* Demonstrate a **breadth-first search** starting at 8.
 4. *(3 pts)* Demonstrate a **depth-first search** on the graph.
   Show as much work as you can, including discovery/finish times.
-5. *(1 pt)* Draw the **parenthesisation** structure of the DFS.
+5. *(1 pt)* Illustrate the **parenthesisation** structure of the DFS.
 6. *(1 pt)* Draw the **DFS forest** and the remaining edges.
   **Classify** all edges in the graph.
 7. *(1 pt)* Show a **topological sort** of the graph from your DFS.

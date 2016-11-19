@@ -34,7 +34,10 @@ neighbours of a vertex should be done in order of vertex index.
   More precisely, \`V = V\_b uu V\_w\`, with \`V\_b nn V\_w = O/\` 
   and \`u, v in V\_b => (u,v) !in E\` and \`u,v in V\_w => (u,v) !in E\`.
 
-  + (a) *(5 pts)* Design (i.e., **pseudocode**) an algorithm to test
+  + (a) *(4 pts)* Design (i.e., **pseudocode**) an algorithm to test
   if a graph is bipartite (return a boolean).  Use a BFS strategy.
 
-  + (b) *(2 pts extra credit)* Do the same using a DFS.
+  + (b) *(1 pt)* What is the **complexity** of your algorithm, assuming
+  adjacency list representation?
+
+  + (c) *(2 pts extra credit)* Design a DFS bipartite checker.

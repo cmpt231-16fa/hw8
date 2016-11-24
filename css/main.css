@@ -1,5 +1,8 @@
 @import url("pygment_highlights.css");
 
+/* Limit size of images in content */
+div.container img { max-width: 100% }
+
 /* --- General --- */
 
 body {

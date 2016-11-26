@@ -7,7 +7,7 @@ ext-js: "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_CHTML"
 
 {% include policies.md %}
 
-### HW8 (20pts)
+### HW8 (20pts) [(solutions)](solns/)
 Consider the directed graph with the following **adjacency list**:
 
 `{1:[2, 3], 2:[1, 7], 3:[2], 4:[7, 8], 5:[2, 4, 6], 6:[5, 8], 8:[3, 4]}`
